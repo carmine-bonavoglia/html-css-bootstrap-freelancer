@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Utilities */
 .wrapper{
     width: 50%;
@@ -119,6 +123,10 @@ p{
         text-transform: uppercase;
         color: white;
     }
+
+    img.ms_resize{
+        height: 256px;
+    }
 /* Fine Jumbotron */
 
 
@@ -208,16 +216,10 @@ p{
 .form-control.ms_form{
     border: none;
     border-radius: 0%;
-    border-bottom: 1px solid  #2c3e50;
+    border-bottom: 1px solid  rgba(211, 211, 211, 0.3);
     background-color: white;
-    color: #2c3e50;
     box-shadow: none;
-    padding: 10px 0;
-    margin-bottom: 20px;
-}
-
-.ms_form{
-    border-bottom: 1px solid  #2c3e50;
+    padding: 40px 0;
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1 */
@@ -238,17 +240,18 @@ p{
 
 #contact .btn.btn-large{
     background-color:  #1abc9c;
-    border: none;
+    border: 2px solid #1abc9c;
     border-radius: 5px;
     color: white;
     padding: 15px 25px;
     font-size: 14px;
+    margin-top: 30px;
 }
 
 #contact .btn.btn-large:hover{
     background-color: white;
     color: #1abc9c;
-    border: 1px solid #1abc9c;
+    border: 2px solid #1abc9c;
 }
 /* Fine Contact */
 
@@ -270,7 +273,7 @@ p{
 #footer_top a .fab{
     height: 50px;
     width: 50px;
-    border: 1px solid white;
+    border: 2px solid white;
     padding: 15px;
     border-radius: 100%;
     text-decoration: none;
@@ -278,8 +281,8 @@ p{
 }
 
 #footer_top a .fab:hover{
-    border: 1px solid #1abc9c;
-    color: #1abc9c;
+    background-color: white;
+    color: #3a546d;
 }
 
 #footer_top a{
@@ -288,7 +291,8 @@ p{
 }
 
 #footer_top a:hover{
-    color: white;
+    color: #127561;
+    text-decoration: underline;
 }
 
 #footer_bottom{
