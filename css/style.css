@@ -195,3 +195,109 @@ p{
     color: #1abc9c;
 }
 /* Fine About */
+
+/* Contact */
+#contact{
+    padding: 80px 0;
+}
+
+#contact h2{
+    color: #2c3e50;
+}
+
+.form-control.ms_form{
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid  #2c3e50;
+    background-color: white;
+    color: #2c3e50;
+    box-shadow: none;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.ms_form{
+    border-bottom: 1px solid  #2c3e50;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1 */
+    color:  #2c3e50;
+    font-size: 18px;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:  #2c3e50;
+    font-size: 18px;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color:  #2c3e50;
+    font-size: 18px;
+}
+
+#contact .btn.btn-large{
+    background-color:  #1abc9c;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 25px;
+    font-size: 14px;
+}
+
+#contact .btn.btn-large:hover{
+    background-color: white;
+    color: #1abc9c;
+    border: 1px solid #1abc9c;
+}
+/* Fine Contact */
+
+
+/* Footer*/
+#footer_top{
+    padding: 60px 0;
+}
+
+#footer_top h3{
+    color: white;
+    text-transform: uppercase;
+}
+
+#footer_top p{
+    font-size: 20px;
+}
+
+#footer_top a .fab{
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 100%;
+    text-decoration: none;
+    color: white;
+}
+
+#footer_top a .fab:hover{
+    border: 1px solid #1abc9c;
+    color: #1abc9c;
+}
+
+#footer_top a{
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+#footer_top a:hover{
+    color: white;
+}
+
+#footer_bottom{
+    padding: 15px 0;
+}
+
+#footer_bottom small{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+/* Fine Footer*/
