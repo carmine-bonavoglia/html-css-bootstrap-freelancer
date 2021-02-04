@@ -95,6 +95,7 @@ p{
 .navbar.ms_navbar .navbar-nav li a{
     font-size: 16px;
     font-weight: 600;
+    transition: .5s ease;
 }
 
 .navbar.ms_navbar .navbar-brand:hover{
@@ -158,25 +159,22 @@ p{
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.0);
+    font-size: 80px;
+    color: transparent;
+    transition: .5s ease;
 }
 
 #portfolio .ms_layover:hover{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color:#1abc9cdc;
     cursor: pointer;
+    color: white;
 }
 
-.ms_layover .fas{
+.ms_position .fas{
     position: absolute;
-    font-size: 212px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: transparent;
-}
-
-.ms_layover .fas:hover{
-    color: rgba(255, 255, 255, 0.5);
-    cursor: pointer;
 }
 /* Fine Portfolio */
 
@@ -196,6 +194,7 @@ p{
     color: white;
     font-size: 20px;
     margin-top: 40px;
+    transition: .5s ease;
 }
 
 #about .btn.btn-default:hover{
@@ -246,6 +245,7 @@ p{
     padding: 15px 25px;
     font-size: 14px;
     margin-top: 30px;
+    transition: .5s ease;
 }
 
 #contact .btn.btn-large:hover{
@@ -278,6 +278,7 @@ p{
     border-radius: 100%;
     text-decoration: none;
     color: white;
+    transition: .5s ease;
 }
 
 #footer_top a .fab:hover{
@@ -288,6 +289,7 @@ p{
 #footer_top a{
     text-decoration: none;
     color: #1abc9c;
+    transition: .5s ease;
 }
 
 #footer_top a:hover{
